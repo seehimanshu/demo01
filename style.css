@@ -1,0 +1,50 @@
+li{
+    list-style: none;
+    margin: 2rem;
+    padding-top: 5px;
+    font-size: 20px
+}
+.footer{
+    background-color: black; color: white;
+    height: 80px;
+    text-align: center;
+}
+img[src="images/lap.jpeg"]{
+    height: 100vh;
+    width: 95vw;
+    margin-left: 2vw;
+}
+div>nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    
+}
+.skills{
+    display: flex;
+}
+.skills>div{
+    text-align: center;
+    margin-top: 2vw;
+}
+h1{
+    margin-left: 2rem;
+    margin-top: 3rem;
+    font-weight: 400;
+}
+.skills>div>p{
+    padding: 2rem;
+    width: 30vw;
+    margin: 1vw;
+}
+a:link,a:visited{
+    color: black;
+}
+a:hover{
+    color: blueviolet;
+}
+a{
+    text-decoration: none;
+}
